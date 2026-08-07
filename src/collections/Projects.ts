@@ -5,7 +5,7 @@ export const Projects: CollectionConfig = {
   access: {
     read: () => true,
   },
-  
+  orderable: true,
   fields: [
     {
       name: 'title',
